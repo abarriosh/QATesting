@@ -35,6 +35,8 @@ public class AndroidTest {
 		
 		
 		
+		
+		
 		File appDir = new File ("C:/");
 		File app = new File (appDir,"fribourg.apk");
 		
