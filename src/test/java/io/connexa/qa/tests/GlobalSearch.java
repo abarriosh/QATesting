@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import io.connexa.qa.Init;
+import io.connexa.qa.general.Init;
 
 public class GlobalSearch {
 

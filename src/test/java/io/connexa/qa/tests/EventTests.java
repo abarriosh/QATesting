@@ -2,9 +2,10 @@
 
 package io.connexa.qa.tests;
 
-import io.connexa.qa.Init;
-import io.connexa.qa.Fecha;
-import io.connexa.qa.Search;
+import io.connexa.qa.general.Fecha;
+import io.connexa.qa.general.Init;
+import io.connexa.qa.general.Search;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
@@ -15,7 +16,7 @@ import org.junit.*;
 import static org.junit.Assert.*;
 import java.util.Random;
 
-public class Event {
+public class EventTests {
 
 	static final String TENANT = Init.TENANT_DOMAIN_CONNEXA;
 	private WebDriver driver;
@@ -23,7 +24,7 @@ public class Event {
 	@Before
 	public void setUp() {
 		
-		driver = (WebDriver) Init.setDriver("f", TENANT, driver);
+		driver = (WebDriver) Init.setDriver("c", TENANT, driver);
 		Init.setCredentials(driver);
 	}
 	

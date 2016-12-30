@@ -2,12 +2,12 @@
 
 package io.connexa.qa.tests;
 
-import io.connexa.qa.Init;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
-import io.connexa.qa.Fecha;
-import io.connexa.qa.Search;
-import io.connexa.tests.pageobjects.CreateEventPage;
+import io.connexa.qa.general.Fecha;
+import io.connexa.qa.general.Init;
+import io.connexa.qa.general.Search;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.By;
@@ -22,7 +22,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Random;
 
-
+import io.connexa.tests.pageobjects.CreateEventPage;
 import io.connexa.tests.pageobjects.HomePage;
 
 public class AndroidTest {
@@ -30,7 +30,7 @@ public class AndroidTest {
 	
 	private AndroidDriver driver;
 
-	@Before
+	//@Before
 	public void setUp() throws MalformedURLException, InterruptedException {
 		
 		
@@ -54,7 +54,7 @@ public class AndroidTest {
 			
 	}
 	
-	@Test
+	//@Test
 	/* ************************************************************************/
 	public void test() {
 		
@@ -69,7 +69,7 @@ public class AndroidTest {
 	}
  
 		
-	@After
+	//@After
 	public void tearDown() throws Exception {
 		// Close the browser
 		driver.quit();

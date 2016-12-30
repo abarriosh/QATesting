@@ -1,4 +1,4 @@
-package io.connexa.qa;
+package io.connexa.qa.general;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

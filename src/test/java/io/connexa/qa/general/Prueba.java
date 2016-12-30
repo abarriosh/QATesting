@@ -1,4 +1,4 @@
-package io.connexa.qa;
+package io.connexa.qa.general;
 
 import java.sql.Date;
 import java.text.SimpleDateFormat;
