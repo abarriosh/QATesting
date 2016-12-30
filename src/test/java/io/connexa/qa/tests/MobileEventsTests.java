@@ -2,12 +2,14 @@
 
 package io.connexa.qa.tests;
 
-import io.connexa.qa.Init;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
-import io.connexa.qa.Fecha;
-import io.connexa.qa.Search;
+import io.connexa.qa.general.Fecha;
+import io.connexa.qa.general.Init;
+import io.connexa.qa.general.Search;
 import io.connexa.tests.pageobjects.CreateEventPage;
+import io.connexa.tests.pageobjects.HomePage;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.By;
@@ -26,12 +28,12 @@ import java.util.concurrent.TimeUnit;
 
 import javax.swing.text.html.HTML;
 
-import io.connexa.tests.pageobjects.HomePage;
-
 public class MobileEventsTests {
 
 	static final String TENANT = Init.TENANT_DOMAIN_CONNEXA;
-	 private AppiumDriver<WebElement> driver;
+
+	
+	AppiumDriver<WebElement> driver;
 
 	@Before
 	public void setUp() throws MalformedURLException, InterruptedException {
