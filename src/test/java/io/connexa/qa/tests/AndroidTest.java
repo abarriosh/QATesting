@@ -2,28 +2,15 @@
 
 package io.connexa.qa.tests;
 
-import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
-import io.connexa.qa.general.Fecha;
-import io.connexa.qa.general.Init;
-import io.connexa.qa.general.Search;
 
-import org.openqa.selenium.WebElement;
+import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.junit.*;
-import static org.junit.Assert.*;
-
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.Random;
-
-import io.connexa.tests.pageobjects.CreateEventPage;
-import io.connexa.tests.pageobjects.HomePage;
 
 public class AndroidTest {
 
@@ -32,10 +19,6 @@ public class AndroidTest {
 
 	//@Before
 	public void setUp() throws MalformedURLException, InterruptedException {
-		
-		
-		
-		
 		
 		File appDir = new File ("C:/");
 		File app = new File (appDir,"fribourg.apk");
@@ -57,8 +40,6 @@ public class AndroidTest {
 	//@Test
 	/* ************************************************************************/
 	public void test() {
-		
-		String app_package_name = "com.hegfribourg";
 		
 		(new WebDriverWait(driver, 10)).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.TextView[@text='Sign In']")));
 		

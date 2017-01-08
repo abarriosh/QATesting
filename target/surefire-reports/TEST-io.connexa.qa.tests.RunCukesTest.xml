@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="21" failures="0" name="io.connexa.qa.tests.RunCukesTest" time="2.708" errors="0" skipped="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Usuario\workspace\QATesting"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="VE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Usuario\workspace\QATesting"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Usuario\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\Usuario\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3262872327942315669.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Intel\Services\IPT\;C:\Program Files (x86)\Skype\Phone\;C:\android_sdk\platform-tools\;C:\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Usuario"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Usuario"/>
+    <property name="java.class.path" value="/C:/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Usuario\workspace\QATesting\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Invalid Conditions" name="Given the user is on Create New Event Page" time="0.004"/>
+  <testcase classname="Scenario: Invalid Conditions" name="When he enters &quot; &quot; as event name" time="0"/>
+  <testcase classname="Scenario: Invalid Conditions" name="And he enters &quot; &quot; as short description" time="0"/>
+  <testcase classname="Scenario: Invalid Conditions" name="And he enters &quot; &quot; as start date" time="0"/>
+  <testcase classname="Scenario: Invalid Conditions" name="And he enters &quot; &quot; as start hour" time="0"/>
+  <testcase classname="Scenario: Invalid Conditions" name="And he enters &quot; &quot; as end date" time="0"/>
+  <testcase classname="Scenario: Invalid Conditions" name="And he enters &quot; &quot; as end hour" time="0"/>
+  <testcase classname="Scenario: Invalid Conditions" name="And he clicks Save Button for Event Creation" time="0"/>
+  <testcase classname="Scenario: Invalid Conditions" name="Then ensure an error &quot;can&apos;t be blank&quot; message is displayed" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Invalid Conditions" name="Scenario: Invalid Conditions" time="1.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Invalid Conditions" name="Scenario: Invalid Conditions" time="1.001"/>
+  <testcase classname="Scenario: Create a New Event" name="Given the user is on Create New Event Page" time="0"/>
+  <testcase classname="Scenario: Create a New Event" name="When he enters &quot;Automated Event&quot; as event name" time="0"/>
+  <testcase classname="Scenario: Create a New Event" name="And he enters &quot;Automated Event Short Description&quot; as short description" time="0"/>
+  <testcase classname="Scenario: Create a New Event" name="And he enters &quot;YYYY/MM/DD&quot; as start date" time="0"/>
+  <testcase classname="Scenario: Create a New Event" name="And he enters &quot;HH:MM&quot; as start hour" time="0"/>
+  <testcase classname="Scenario: Create a New Event" name="And he enters &quot;YYYY/MM/DD&quot; as end date" time="0"/>
+  <testcase classname="Scenario: Create a New Event" name="And he enters &quot;HH:MM&quot; as end hour" time="0"/>
+  <testcase classname="Scenario: Create a New Event" name="And he clicks Save Button for Event Creation" time="0"/>
+  <testcase classname="Scenario: Create a New Event" name="Then ensure the event is created" time="0"/>
+  <testcase classname="Scenario: Create a New Event" name="Scenario: Create a New Event" time="0.702"/>
+</testsuite>

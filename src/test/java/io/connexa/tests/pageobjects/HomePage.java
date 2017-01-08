@@ -18,7 +18,7 @@ import static org.junit.Assert.*;
 import org.openqa.selenium.Keys;
 
 
-public class HomePage extends LoadableComponent<CreateEventPage>{
+public class HomePage extends LoadableComponent<HomePage>{
 
 	//Fields
 	private WebElement email;
@@ -37,7 +37,6 @@ public class HomePage extends LoadableComponent<CreateEventPage>{
 	public HomePage (WebDriver driver, String tenant){
 		this.driver = driver;
 		this.url = tenant ;		
-		//touch = new TouchActions(driver);
 		PageFactory.initElements(driver, this);
 			
 	}

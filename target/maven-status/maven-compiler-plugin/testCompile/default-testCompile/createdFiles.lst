@@ -1,5 +1,7 @@
 io\connexa\qa\tests\Post.class
 io\connexa\tests\pageobjects\HomePage.class
+io\connexa\qa\tests\EventsBDDTest.class
+io\connexa\qa\tests\RunCukesTest.class
 io\connexa\qa\general\Init.class
 io\connexa\tests\pageobjects\CreateEventPage.class
 io\connexa\qa\general\Prueba.class

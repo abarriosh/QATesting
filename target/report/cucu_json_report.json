@@ -1,0 +1,361 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22741603281,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EventsBDDTest.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Invalid Conditions",
+        "description": "",
+        "id": "user-creates-a-new-event-as-a-community-member;invalid-conditions",
+        "after": [
+          {
+            "result": {
+              "duration": 998166934,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EventsBDDTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 766176094,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on Create New Event Page",
+            "match": {
+              "location": "EventsBDDTest.theUserIsOnCreateNewEventPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56474765,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he enters \" \" as event name",
+            "match": {
+              "arguments": [
+                {
+                  "val": " ",
+                  "offset": 11
+                }
+              ],
+              "location": "EventsBDDTest.entersEventName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262995894,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he enters \" \" as short description",
+            "match": {
+              "arguments": [
+                {
+                  "val": " ",
+                  "offset": 11
+                }
+              ],
+              "location": "EventsBDDTest.entersShortDescription(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91806801,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "he enters \" \" as start date",
+            "match": {
+              "arguments": [
+                {
+                  "val": " ",
+                  "offset": 11
+                }
+              ],
+              "location": "EventsBDDTest.entersStartDate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155255072,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "he enters \" \" as start hour",
+            "match": {
+              "arguments": [
+                {
+                  "val": " ",
+                  "offset": 11
+                }
+              ],
+              "location": "EventsBDDTest.entersStartHour(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83975219,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "he enters \" \" as end date",
+            "match": {
+              "arguments": [
+                {
+                  "val": " ",
+                  "offset": 11
+                }
+              ],
+              "location": "EventsBDDTest.entersEndDate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88256686,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "he enters \" \" as end hour",
+            "match": {
+              "arguments": [
+                {
+                  "val": " ",
+                  "offset": 11
+                }
+              ],
+              "location": "EventsBDDTest.entersEndHour(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104158133,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "he clicks Save Button for Event Creation",
+            "match": {
+              "location": "EventsBDDTest.click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "ensure an error \"can\u0027t be blank\" message is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19289527606,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EventsBDDTest.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Create a New Event",
+        "description": "",
+        "id": "user-creates-a-new-event-as-a-community-member;create-a-new-event",
+        "after": [
+          {
+            "result": {
+              "duration": 699927802,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EventsBDDTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 596479603,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user is on Create New Event Page",
+            "match": {
+              "location": "EventsBDDTest.theUserIsOnCreateNewEventPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 332120957,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "he enters \"Automated Event\" as event name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automated Event",
+                  "offset": 11
+                }
+              ],
+              "location": "EventsBDDTest.entersEventName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158925666,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "he enters \"Automated Event Short Description\" as short description",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automated Event Short Description",
+                  "offset": 11
+                }
+              ],
+              "location": "EventsBDDTest.entersShortDescription(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124374959,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "he enters \"YYYY/MM/DD\" as start date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "YYYY/MM/DD",
+                  "offset": 11
+                }
+              ],
+              "location": "EventsBDDTest.entersStartDate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137926172,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "he enters \"HH:MM\" as start hour",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HH:MM",
+                  "offset": 11
+                }
+              ],
+              "location": "EventsBDDTest.entersStartHour(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117357279,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "he enters \"YYYY/MM/DD\" as end date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "YYYY/MM/DD",
+                  "offset": 11
+                }
+              ],
+              "location": "EventsBDDTest.entersEndDate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122225970,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "he enters \"HH:MM\" as end hour",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HH:MM",
+                  "offset": 11
+                }
+              ],
+              "location": "EventsBDDTest.entersEndHour(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118354578,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "he clicks Save Button for Event Creation",
+            "match": {
+              "location": "EventsBDDTest.click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 765358621,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "ensure the event is created",
+            "match": {
+              "location": "EventsBDDTest.checkEventCreation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Creates a new Event As a Community Member",
+    "description": " I want to create a new event so other Community Members could join to it",
+    "id": "user-creates-a-new-event-as-a-community-member",
+    "keyword": "Feature",
+    "uri": "io/connexa/qa/tests/newevent.feature"
+  }
+]

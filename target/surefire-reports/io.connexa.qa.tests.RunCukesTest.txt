@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: io.connexa.qa.tests.EventsTest
+Test set: io.connexa.qa.tests.RunCukesTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.612 sec
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 48.742 sec

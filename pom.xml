@@ -4,7 +4,23 @@
   <artifactId>SeleniumCookbook</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+   
   <dependencies>
+  	
+  	<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>1.2.5</version> 
+			<scope>test</scope>
+	</dependency>
+	<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>1.2.5</version>
+			<scope>test</scope>
+	</dependency>
+  	
+  	
   	<dependency>
   	<groupId>org.seleniumhq.selenium</groupId>
   	<artifactId>selenium-java</artifactId>
@@ -19,7 +35,7 @@
     <scope>test</scope>
    	</dependency>
   
-  
+    
   	<dependency>
  	<groupId>io.appium</groupId> 
  	<artifactId>java-client</artifactId>

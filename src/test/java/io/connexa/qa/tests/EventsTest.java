@@ -34,7 +34,7 @@ public class EventsTest {
 	
 	}
 	
-	@Test
+	//@Test
 	/* ******************Check All Required Fields Validations in Create Event******************************************************/
 	public void emptyFieldsValidation() {
 		

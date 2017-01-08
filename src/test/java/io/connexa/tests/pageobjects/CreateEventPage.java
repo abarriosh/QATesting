@@ -13,9 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.LoadableComponent;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import io.appium.java_client.AppiumDriver;
-
 import static org.junit.Assert.*;
 
 public class CreateEventPage extends LoadableComponent<CreateEventPage>{
@@ -118,7 +116,39 @@ public class CreateEventPage extends LoadableComponent<CreateEventPage>{
 		return labelEndHour.getText();
 	}
    
-    	
+   //Setters
+  	public void setName(String eventName){
+  		
+  		name.sendKeys(eventName);
+  	}
+  	
+  	public void setShortDescription(String shortDescription){
+  		
+  		short_description.sendKeys(shortDescription);
+    			
+  	}
+  	
+  	public void  setStartDate(String startDate){
+  		
+  		start_date.sendKeys(startDate);
+  	}
+  	
+      public void setStarHour(String startHour){
+  		
+    	  start_hour.sendKeys(startHour);
+  	}
+  	
+      public void setEndDate(String endDate){
+  		
+    	  end_date.sendKeys(endDate);
+  	}
+      
+      public void setEndHour(String endHour){
+  		
+    	   	end_hour.sendKeys(endHour);
+    	    
+  	}
+    
     //Others Methods
     
     //PRIVATES METHODS
@@ -152,7 +182,7 @@ public class CreateEventPage extends LoadableComponent<CreateEventPage>{
 		
      public void saveEvent(){
 		
-       	 eventSaveButton.click();
+    	 eventSaveButton.sendKeys(Keys.ENTER);
     	
 	}
     
